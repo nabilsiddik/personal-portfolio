@@ -1,0 +1,308 @@
+/** Font **/ 
+$heading-font: 'Open Sans', sans-serif;
+$body-font: 'Poppins', sans-serif;
+/** Color **/
+$primary: #FF3636;
+$heading-color: #333333;
+$overlay: #252525;
+$light-text-color: #666;
+$deep-text-color: #333;
+$dark: #252525;
+$white: #fff;
+/** Medium Device  (768px - 991px)**/
+@media (max-width: 991px){
+    h1{
+        font-size: 60px;
+    }
+    /** About Section **/
+    #about_section{
+        .about-img{
+            
+            img{
+                width: 100%;
+                text-align: center;
+                margin-bottom: 50px;
+            }
+        }
+    }
+    /** Services Section **/
+    #services_section {
+        .single-service{
+           margin-bottom: 30px;
+        }
+    }
+    /** Project Section **/
+    #project_section{
+        .single-project .project-content {
+            opacity: 1;
+            visibility: visible;
+            transform: scale(1);
+        }
+    }
+
+    /** Statistics Section **/
+    #statistics_section {
+        .icon-box{
+            margin-bottom: 80px;
+            .icon{
+                font-size: 40px;
+                width: 80px;
+                height: 80px;
+            }
+            h3{
+                font-size: 45px;
+            }
+            h4{
+                font-size: 25px;
+            }
+        }
+        
+    }
+
+    /** Timeline Section **/
+    #timeline_section{
+        .timeline-list .timeline-content h4 {
+            font-size: 22px;
+        }
+    }
+    /** Testimonial Section **/
+    #testimonial_section{
+        overflow: hidden;
+    }
+    /** Pricing Section **/
+    #pricing_section {
+        .pricing-table{
+            background: #fff;
+            padding: 100px 0;
+            margin-bottom: 30px;
+        }
+    }
+
+    /** Team Section **/
+    #team_section {
+        .team-persion{
+            margin-bottom: 30px;
+            .team-overlay {
+                bottom: 0;
+            }
+        }
+        
+    }
+
+    /** Article Section **/
+    #article_section{
+        .single-blog{
+           margin-bottom: 30px;
+           .blog-info{
+               padding: 50px 30px;
+           }
+        }
+    }
+
+    /** Contact Section **/
+    #contact_section{
+        .contact-form{
+            margin-bottom: 30px;
+        }
+    }
+
+    /** Footer section **/
+    #footer_section{
+        .single-footer-widget{
+            margin-bottom: 50px;
+        }
+    }
+}
+
+
+
+/** Small Device (576px - 767px)**/
+@media (max-width: 767px){
+    h1{
+        font-size: 50px;
+    }
+    /** Banner Section **/
+    #banner_section{
+        .banner-content {
+            .banner-btn{
+                padding: 8px 20px;
+            }
+        }
+    }
+
+    /** Statistics Section **/
+    #statistics_section {
+        .icon-box{
+            margin-bottom: 80px;
+            .icon{
+                font-size: 30px;
+                width: 60px;
+                height: 60px;
+            }
+            h3{
+                font-size: 45px;
+            }
+            h4{
+                font-size: 25px;
+            }
+        }
+        
+    }
+
+    /** Timeline Section **/
+    #timeline_section{
+        .timeline-list .timeline-content h4 {
+            font-size: 17px;
+        }
+    }
+
+    /** Article Section **/
+    #article_section{
+        .single-blog{
+           margin-bottom: 30px;
+           .blog-info{
+               padding: 50px 30px;
+           }
+        }
+    }
+    
+}
+
+
+/** Extra Small Device (480px - 575px)**/
+@media (max-width: 575px){
+    h1{
+        font-size: 40px;
+    }
+    /** Banner Section **/
+    #banner_section{
+        .banner-content {
+            .banner-btn{
+                padding: 8px 15px;
+                font-size: 13px;
+            }
+            
+            h4{
+                font-size: 17px;
+            }
+        }
+    }
+    /** About section **/
+    #about_section{
+        text-align: center;
+    }
+    /** Statistics Section **/
+    #statistics_section {
+        .icon-box{
+            margin-bottom: 80px;
+            .icon{
+                font-size: 30px;
+                width: 60px;
+                height: 60px;
+            }
+            h3{
+                font-size: 40px;
+            }
+            h4{
+                font-size: 20px;
+            }
+        }
+        
+    }
+
+    /** Timeline Section **/
+    #timeline_section{
+        .timeline-list {
+            &::before{
+                display: none;
+            }
+            li::after {
+                display: none;
+            }
+                
+            .timeline-content{
+                border: 2px solid $primary;
+                padding: 20px;
+                text-align: left;
+                float: none;
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            
+        }
+    }
+    
+}
+
+
+/** Extra Extra Small Device (1px - 479px)**/
+@media (max-width: 479px){
+    h1{
+        font-size: 25px;
+    }
+    /** Banner Section **/
+    #banner_section{
+        .banner-content {
+            .banner-btn{
+                padding: 6px 10px;
+                font-size: 10px;
+            }
+            
+            h4{
+                font-size: 12px;
+                margin-bottom: 18px;
+            }
+        }
+    }
+    #project_section{
+        .single-project{
+            .project-content{
+                h4{
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+
+    /** Statistics Section **/
+    #statistics_section {
+        .icon-box{
+            margin-bottom: 80px;
+            .icon{
+                font-size: 20px;
+                width: 50px;
+                height: 50px;
+            }
+            h3{
+                font-size: 30px;
+            }
+            h4{
+                font-size: 15px;
+            }
+        }
+        
+    }
+
+    /** Timeline Section **/
+    #timeline_section{
+        .timeline-list {
+            &::before{
+                display: none;
+            }
+            li::after {
+                display: none;
+            }
+                
+            .timeline-content{
+                border: 2px solid $primary;
+                padding: 20px;
+                text-align: left;
+                float: none;
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            
+        }
+    }
+    
+}
